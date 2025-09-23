@@ -54,7 +54,8 @@
     border: none;
     height: 31px;
     width: 53px;
-    background-color: rgb(227, 13, 13);
+    background-color: white;
     cursor: pointer;
     padding: 4px 10px ;
+
 }
