@@ -54,8 +54,26 @@
     border: none;
     height: 31px;
     width: 53px;
-    background-color: white;
+    background-color: maroon;
     cursor: pointer;
     padding: 4px 10px ;
 
 }
+
+/* 📱 موبايل */
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+  #one {
+    font-size: 14px;
+  }
+}
+
+/* 📟 تابلت */
+@media (min-width: 601px) and (max-width: 992px) {
+  .container {
+    width: 70%;
+  }
+}
+
