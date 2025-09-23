@@ -1,0 +1,60 @@
+.hel {
+    margin: 35px auto;
+    padding: 15px;
+    height: 50px;
+    background-color: #DACEC4;
+    width: 500px;
+    border-radius: 6px;
+    border: none;
+    display: flex;
+}
+#one {
+    border-radius: 6px;
+    border: none;
+    height: 40px;
+    width: 393px;
+}
+
+#two {
+    border-radius: 6px;
+    border: none;
+    width: 150px;
+    height: 43px;
+    margin: 0 3px;
+    
+}
+
+#tasks {
+    margin: 35px auto;
+    padding: 15px;
+    background-color: #DACEC4;
+    width: 500px;
+    height: auto;
+    border-radius: 6px;
+    border: none;
+    
+}
+
+
+.task-item {
+    border-radius: 6px;
+    border: none;
+    height: 37px;
+    width: 393px;
+    background-color: white;
+    padding: 10px;
+    margin: 35px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dlt-item {
+    border-radius: 6px;
+    border: none;
+    height: 31px;
+    width: 53px;
+    background-color: rgb(227, 13, 13);
+    cursor: pointer;
+    padding: 4px 10px ;
+}
