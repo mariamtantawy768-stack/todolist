@@ -48,8 +48,11 @@
     justify-content: space-between;
     align-items: center;
 }
-
-.dlt-item {
+.task-item.done {
+  text-decoration: line-through;
+  color: gray;
+}
+.smt-item {
     border-radius: 6px;
     border: none;
     height: 31px;
@@ -58,6 +61,13 @@
     cursor: pointer;
     padding: 4px 10px ;
 
+}
+.grtng {
+    justify-content: center;
+    text-align: center;
+    transition: 3000ms;
+    font-weight: 100;
+    color: #DACEC4;
 }
 
 /* 📱 موبايل */
@@ -76,4 +86,5 @@
     width: 70%;
   }
 }
+
 
